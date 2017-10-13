@@ -39,7 +39,7 @@ from: 'comments > form.html.erb
 
 to remove the user_id field which is waiting to be filled by user_id
 
-this sort of filed generating by scaffold and are avoidable just by this way.
+this sort of field generating by scaffold and are avoidable just by this way.
 
 8- NOW
 
