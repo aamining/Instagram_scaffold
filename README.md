@@ -2,14 +2,19 @@
 # Instagram By Scaffold and references (association)
 # eg. $ rails g scaffold Table_name description:text user:assosiation
 
+Scope of work:
+
 Making two tables 'User' and 'Comments'.
+
 'Comments' are linked to 'user id'
 
-first we need to login as a user so we have to log in by eg. devise
+first we need to login as a user so we have to log in by eg. devise gem
 
 1- add to gem files
 
-```gem 'devise'
+```
+gem 'devise'
+
 ```
 
 2- bundle install
