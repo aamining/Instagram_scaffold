@@ -46,6 +46,7 @@ this sort of filed generating by scaffold and are avoidable just by this way.
 '''
 rake db:migrate
 '''
+
 9- add 'has_many :comments' to user model
 
 10- add this to comments control, create methode
@@ -53,9 +54,13 @@ rake db:migrate
 '''
 @comment.user_id = current_user.id
 '''
+
 11- to be able to see who is this comment belong to we have to do this change in views> comments>show.html.erb
 
 from:
+
 <%= @comment.user%>
+
 to:
+
 <%= @comment.user.email %>
